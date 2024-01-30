@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webpage with Bootstrap</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="./src/css/style.css">
+    </head>
+
+<body>
+
+
+    |<!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.jpg" alt="tv tower düsseldorf" width="80"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" aria-disabled="true">Contact Us </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    |<!--Carousel-->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/konigsalle.jpg" class="d-block w-100" alt="Aile with trees">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/nacht.jpg" class="d-block w-100" alt="düsseldorf by night">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/natur.jpg" class="d-block w-100" alt="nature">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/gehry.jpg" class="d-block w-100" alt="designer building">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!--Main content-->
+    <div class="container">
+
+        <h1 class="text-center p-5 mb-5 mt-5">Visit Düsseldorf Today!</h1>
+
+        <div class="w-100 bg-dark-subtle p-5 mb-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi suscipit inventore distinctio, itaque
+                nemo tempora officia laborum magnam adipisci corporis dolor autem odit voluptatibus nesciunt rerum
+                labore libero quidem accusamus laudantium ipsum magni. Aspernatur quis a fugiat alias nulla accusantium
+                aperiam, nam magnam aliquid neque autem quibusdam eligendi perspiciatis harum. Recusandae ullam optio
+                iusto commodi! Eaque molestias quas rem. Repudiandae nostrum aperiam eius saepe sed consectetur impedit
+                architecto sit beatae maiores magnam, quos illo nesciunt mollitia, similique porro maxime harum ab?
+                Doloremque voluptatum fuga quas eos rerum assumenda eligendi dolore voluptate accusamus itaque
+                exercitationem, illo, quibusdam, repudiandae repellendus blanditiis.</p>
+            <button type="button" class="btn btn-primary btn-lg">Get your tickets now!</button>
+        </div>
+
+        <h2 id="destinations" class="fs-1 p-5 mt-5 mb-5 text-center">PORPULAR DESTINATIONS</h2>
+
+        <div class="row">
+            <div class="col">
+                <!--Card 1-->
+                <div class="card">
+                    <img src="./images/konigsalle.jpg" class="card-img-top" alt="nature with trees">
+                    <div class="card-body">
+                        <h5 class="card-title">Nature</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
+                            doloribus
+                            accusamus corrupti voluptatum? Ut amet itaque laudantium vitae ullam. Adipisci ipsum officia
+                            sunt omnis cum harum eaque, itaque enim cumque!</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <!--Card 2-->
+                <div class="card">
+                    <img src="./images/nacht.jpg" class="card-img-top" alt="düsseldorf at night">
+                    <div class="card-body">
+                        <h5 class="card-title">Düsseldorf at night</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
+                            doloribus
+                            accusamus corrupti voluptatum? Ut amet itaque laudantium vitae ullam. Adipisci ipsum officia
+                            sunt omnis cum harum eaque, itaque enim cumque!</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <!--Card 3-->
+                <div class="card">
+                    <img src="./images/gehry.jpg" class="card-img-top" alt="gehry buildings">
+                    <div class="card-body">
+                        <h5 class="card-title">Architecture</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
+                            doloribus
+                            accusamus corrupti voluptatum? Ut amet itaque laudantium vitae ullam. Adipisci ipsum officia
+                            sunt omnis cum harum eaque, itaque enim cumque!</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--About-->
+
+        <h2 id="about" class="fs-1 p-5 mt-5 mb-5 text-center">ABOUT</h2>
+        <div class="row">
+
+            <div class="col-6">
+                <div class="bg-secondary text-white p-5 mt-5 mb-5">
+                    <h2>Prices</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim repudiandae, dolores facilis
+                        deleniti illum atque qui a. Amet dolor assumenda facilis natus! Deserunt vel illum, obcaecati
+                        deleniti placeat incidunt est, aut cum totam odio ipsam dolore repellat voluptates perferendis
+                        quidem exercitationem provident reprehenderit sunt nihil eos officia, eum aliquid. Ab?</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-dark-subtle p-5 mt-5 mb-5">
+                    <h2>Features</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim repudiandae, dolores facilis
+                        deleniti illum atque qui a. Amet dolor assumenda facilis natus! Deserunt vel illum, obcaecati
+                        deleniti placeat incidunt est, aut cum totam odio ipsam dolore repellat voluptates perferendis
+                        quidem exercitationem provident reprehenderit sunt nihil eos officia, eum aliquid. Ab?</p>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="bg-dark-subtle  p-5 mt-5 mb-5">
+                    <h2>Porpular Sites</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim repudiandae, dolores facilis
+                        deleniti illum atque qui a. Amet dolor assumenda facilis natus! Deserunt vel illum, obcaecati
+                        deleniti placeat incidunt est, aut cum totam odio ipsam dolore repellat voluptates perferendis
+                        quidem exercitationem provident reprehenderit sunt nihil eos officia, eum aliquid. Ab?</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="bg-secondary text-white p-5 mt-5 mb-5">
+                    <h2>Restaurants</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim repudiandae, dolores facilis
+                        deleniti illum atque qui a. Amet dolor assumenda facilis natus! Deserunt vel illum, obcaecati
+                        deleniti placeat incidunt est, aut cum totam odio ipsam dolore repellat voluptates perferendis
+                        quidem exercitationem provident reprehenderit sunt nihil eos officia, eum aliquid. Ab?</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!--Contact Us-->
+
+        <h2 id="contact" class="fs-1 p-5 mt-5 mb-5 text-center">CONTACT US</h2>
+
+
+
+        <div class="w-100 bg-dark-subtle p-5 mb-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, sequi suscipit inventore distinctio, itaque
+                nemo tempora officia laborum magnam adipisci corporis dolor autem odit voluptatibus nesciunt rerum
+                labore libero quidem accusamus laudantium ipsum magni. Aspernatur quis a fugiat alias nulla accusantium
+                aperiam, nam magnam aliquid neque autem quibusdam eligendi perspiciatis harum. Recusandae ullam optio
+                iusto commodi! Eaque molestias quas rem. Repudiandae nostrum aperiam eius saepe sed consectetur impedit
+                architecto sit beatae maiores magnam, quos illo nesciunt mollitia, similique porro maxime harum ab?
+                Doloremque voluptatum fuga quas eos rerum assumenda eligendi dolore voluptate accusamus itaque
+                exercitationem, illo, quibusdam, repudiandae repellendus blanditiis.</p>
+            <button type="button" class="btn btn-primary btn-lg"><a href="mailto: hello@city-duesseldorf.de"
+                    class="text-white text-decoration-none"> Contact us for more information</a></button>
+        </div>
+
+
+        <h2 class="fs-1 p-5 mt-5 mb-5 text-center">ENJOY YOUR TIME IN DÜSSELDORF</h2>
+
+        <img src="./images/shopping.jpg" alt="shopping" class="w-100 mb-5">
+
+
+
+    </div>
+    <!--end of main content-->
+
+    <footer class="bg-dark mt-5 p-5 text-white text-center">
+        <p>&copy Tour Düsseldorf Today</p>
+        <p><a href="mailto: hello@city-duesseldorf.de" class="text-white">Email Us</a></p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
